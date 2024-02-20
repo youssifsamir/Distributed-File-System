@@ -31,14 +31,14 @@ This project implements a Distributed File System using Java RMI (Remote Method 
 - Includes information such as request ID, sender, operation type, file name, file content, and logical clock.
 
 
-### Get Started
+## Get Started
 
   1. Compile the classes.
   2. Run the App class with appropriate arguments to initialize nodes.
   3. Perform file operations using the provided interface.
 
 
-### Note
+## Note
 - This system has semi-implementation of the Raft consensus algorithm for leader election and coordination among nodes.
 - Ensure proper configuration of IP addresses, ports, and services for seamless communication between nodes.
 
